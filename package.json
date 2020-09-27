@@ -20,6 +20,6 @@
     },
     "author": "Kristóf-Attila Kovács",
     "name": "ktimeutils",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "time util functions"
 }
