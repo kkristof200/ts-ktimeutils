@@ -63,4 +63,8 @@ export class TimeUtils {
 
         return seconds
     }
+
+    static sleepS(s: number) { return this.sleep(s*1000) }
+    static sleepMs(ms: number) { return this.sleep(ms) }
+    static sleep(ms: number) { return new Promise<void>(resolve => setTimeout(resolve, ms)) }
 }
